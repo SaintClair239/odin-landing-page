@@ -1,8 +1,3 @@
-@font-face {
-    font-family: sans-serif;
-    src: url(./assets/BrittanySignature-LjyZ.otf);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -64,7 +59,7 @@ ul li a {
 .main-box .left-content h1 {
     font-size: 72px;
     padding: 8px;
-    font-family: 'Brittany Signature', sans-serif;
+    font-family: 'Waterfall', cursive;
     color: #ff0505;
                                                 
     
@@ -73,7 +68,7 @@ ul li a {
 .main-box .left-content .long {
     font-size: 18px;
     padding: 16px 8px 8px 8px;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #9ec4c5;
     font-weight: 600;
 }
@@ -90,7 +85,7 @@ ul li a {
     text-align: center;
     padding: 25px;
     color: #ff83a8;
-    font-family: 'Nickainley', sans-serif;
+    font-family: 'Caveat', cursive;
     font-size: 42px;
                                                 
 }
@@ -153,7 +148,7 @@ img {
 
 .credit {
     text-align: right;
-    font-family: 'Sukar', sans-serif;
+    font-family: 'Pangolin', cursive;
     color: #ad6665;
     font-size: 24px;
     padding-top: 24px;
