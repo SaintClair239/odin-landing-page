@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background: #f5c7be;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    padding: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-box {
+    display: flex;
+    height:calc(65vh - 116px);
+    background: #f7e5d7;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.left-content {
+    /* margin-left: 20%; */
+    width: 30%;
+}
+
+#sign-up {
+    background-color: lightblue;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 0;
+    margin: 8px;
+}
+
+#sign-up a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-box .left-content h1 {
+    font-size: 72px;
+    padding: 8px;
+    font-family: 'Brittany Signature', sans-serif;
+    color: #ff0505;
+                                                
+    
+}
+
+.main-box .left-content .long {
+    font-size: 18px;
+    padding: 16px 8px 8px 8px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #9ec4c5;
+    font-weight: 600;
+}
+
+/* .right-content {
+    padding-right: 35%;
+} */
+
+.btm-box {
+    height:calc(55vh - 116px);
+}
+
+.mood {
+    text-align: center;
+    padding: 25px;
+    color: #ff83a8;
+    font-family: 'Nickainley', sans-serif;
+    font-size: 42px;
+                                                
+}
+
+.btm-content {
+    margin: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-one, .img-two, .img-three, .img-four {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+}
+
+.btm-content p {
+    text-align: center;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.desc {
+    padding: 8px;
+    font-family: 'Rosario', sans-serif;
+    color: #5d504d
+}
+
+.btm-content .img {
+    border-radius: 5%;
+    border: 10px solid #f8cbd1;  
+}
+
+.gray-content {
+    background-color: #c1ddd8;
+    height:calc(50vh - 116px);
+    display: flex;
+    justify-content: center;
+}
+
+.gray-box {
+    width: 50%;
+    padding-top: 80px;
+   
+}
+
+
+.quote {
+    text-align: center;
+    color: #ad6665;
+    font-family: 'Chewy', cursive;
+    font-size: 52px;
+}
+
+.credit {
+    text-align: right;
+    font-family: 'Sukar', sans-serif;
+    color: #ad6665;
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+.white {
+    height:calc(50vh - 116px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    width: 50%;
+    height:calc(25vh - 116px);
+    background-color: #b79f99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 46px;
+}
+
+#sign {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px
+}
+
+#sign a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.footer {
+    height: 116px;
+    background: #f5c7be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+}
+
+.call {
+    font-size: 26px;
+    font-weight: 200;
+    color: white;
+}
+
+.over {
+    font-size: 18px;
+    color: white;
+}
